@@ -1,0 +1,96 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background: linear-gradient(to right, #000000, #434343);
+ color: white;
+}
+
+
+header {
+ background: #1a1a1a;
+ padding: 20px;
+ text-align: center;
+ text-shadow: 0 0 30px #ffa3fd 
+ font-size: 4rem; /* Adjust size as needed */
+ color: #ffffff; /* Base text color */
+ text-align: center;
+ text-shadow: 
+     0 0 5px #ff00ff,   /* Pink glow */
+     0 0 10px #ff00ff,  /* Pink glow */
+     0 0 15px #ff00ff,  /* Pink glow */
+     0 0 20px #865DFF,  /* Green glow */
+     0 0 30px #865DFF,  /* Green glow */
+     0 0 40px #865DFF;  /* Green glow */
+ transition: text-shadow 0.3s ease;
+}
+
+
+nav ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+nav ul li {
+ display: inline;
+ margin: 0 15px;
+}
+
+nav ul li a {
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+nav ul li a:hover {
+ text-decoration: underline;
+}
+
+main {
+ padding: 20px;
+ text-align: center;
+}
+
+.fruits{
+ height:300px;
+ 
+}
+
+.fruit-image {
+ width: 300px;
+ height: auto;
+ border-radius: 10px;
+ margin-top: 20px;
+}
+
+.button{
+ padding: 0.3rem;
+ border-radius: 6px;
+ border: none;
+ background-color:#191825;
+ border: 2px solid #c5b4f7;
+ color: #b199f8;
+ font-size: 1rem;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: 600;
+ cursor:pointer;
+ text-shadow: 0px 0px 55px #865DFF;
+ transition: all 400ms;
+ box-shadow: inset 0px 1px 5px #ffffff,
+             inset 1px -1px 5px #865DFF;
+}
+.button:hover{
+ color: #f38df1;
+ background-color: #484661;
+ box-shadow: inset 0px 1px 10px #865DFF,
+             inset 1px -1px 5px #865DFF,
+             2px 2px 10px #865DFF;
+ transform: translateY(-3px) ;
+ text-shadow: 0px 0px 25px #9b0c98;
+
+}
+.button:focus{
+ transform: translateY(3px);
+ transition: all 400ms;
+ transform: scale(0.9);
+}
